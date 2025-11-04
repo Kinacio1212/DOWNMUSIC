@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0a0a;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #6a0dad, #1a001f);
+  text-align: center;
+  padding: 30px 10px;
+  box-shadow: 0 0 20px #6a0dad;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin: 0;
+}
+
+.anuncio {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #111;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  width: 80%;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.lista-musicas h2, .formulario h2 {
+  text-align: center;
+  color: #c77dff;
+}
+
+.musica {
+  background-color: #1a001f;
+  border: 1px solid #3c005a;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px #6a0dad;
+}
+
+.musica h3 {
+  color: #c77dff;
+}
+
+.botao-download {
+  display: inline-block;
+  background-color: #6a0dad;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.botao-download:hover {
+  background-color: #9a40ff;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 15px 10px;
+  color: #999;
+  border-top: 1px solid #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #1a001f;
+  color: white;
+}
+
+button {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9a40ff;
+}
+
+#mensagem {
+  color: #c77dff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.admin-link {
+  color: #6a0dad;
+  text-decoration: none;
+}
+.admin-link:hover {
+  color: #9a40ff;
+}
